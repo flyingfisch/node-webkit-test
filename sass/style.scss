@@ -5,20 +5,42 @@
  * element-modifiers....classes for element modifiers
  * components...........reusable components
  */
+
+
+
 /*-------------------*\
  * #VARS
 \*-------------------*/
+
+$foreground: #222;
+$background: #fbfbfb;
+$accent: #16C23C;
+
+
+
 /*-------------------*\
  * #GENERIC
 \*-------------------*/
+
 html {
-  background-color: #fbfbfb; }
+    background-color: $background;
+}
+
+
 
 /*-------------------*\
  * #ELEMENT-MODIFIERS
 \*-------------------*/
+
+.accent {
+    background-color: $accent;
+    color: $foreground;
+}
+
+
 /*-------------------*\
  * #COMPONENTS
 \*-------------------*/
 
-/*# sourceMappingURL=style.css.map */
+
+
